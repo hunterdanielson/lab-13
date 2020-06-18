@@ -9,7 +9,6 @@ jest.mock('superagent', () => ({
         status: 'Alive',
         species: 'Human'
       }
-      
     });
   }
 }));
