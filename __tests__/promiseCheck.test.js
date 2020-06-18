@@ -1,5 +1,4 @@
 const { promiseCheck } = require('../lib/promiseCheck');
-const fs = require('fs').promises;
 
 describe('promise checker', () => {
   it('returns true if something is a promise', () => {
