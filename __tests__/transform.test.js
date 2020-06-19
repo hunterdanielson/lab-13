@@ -11,7 +11,7 @@ describe('transform function', () => {
   it('transforms a file according to instructions', () => {
     return transformFile('./test-file.txt')
       .then(contents => {
-        expect(contents).toEqual('GNITSETAT');
+        expect(contents).toEqual('.ELIF   SI SIH');
       });
   });
 });
